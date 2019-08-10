@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    text-align: center;
+    
+    
+}
+header, nav, section, aside, footer {
+    background: #ebebeb;
+    padding: 20px;
+    text-align: center;
+    display: block;
+    
+    
+
+}
+article {
+    color: #ebebeb;
+    background: #777;
+    text-align: center;
+    float: left;
+    position: absolute;
+    width: 90%;
+
+}
+
+
+h1, p {
+    color: #777;
+    background: #ebebeb;
+    width: 90%;
+    
+}
+
+section {
+    width: 55%;
+    float: left;
+    display: block;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    
+
+}
+aside {
+    float: right;
+    width: 35%;
+    height: 200px;
+    overflow: hidden;
+    margin-left: 10px;
+    
+
+}
+
+footer {
+    margin-top: 20px;
+}
+#header {
+    margin-bottom: 10px;
+}
+#nav {
+    margin-bottom: 20px;
+}
+.clear {
+    clear: both;
+}
